@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Nov  2 12:48:50 2022
+# Process ID: 16688
+# Current directory: C:/Users/wwwka/Desktop/my_cnn/denoise
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18964 C:\Users\wwwka\Desktop\my_cnn\denoise\denoise.xpr
+# Log file: C:/Users/wwwka/Desktop/my_cnn/denoise/vivado.log
+# Journal file: C:/Users/wwwka/Desktop/my_cnn/denoise\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/wwwka/Desktop/my_cnn/the_ip/the_controller_axi_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/wwwka/Desktop/my_cnn/denoise/iprepo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:14 . Memory (MB): peak = 1257.676 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xczu3eg-sbva484-2-i
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-2-i
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'u_cw'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/fifo_dram/fifo_dram.dcp' for cell 'u_dw_block/u_syn_data_fifo/u_fifo_dram'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/weight_inc_0_conv/weight_inc_0_conv.dcp' for cell 'u_dw_block/u_weight/wei'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/result/result.dcp' for cell 'u_result_block/u_r'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_MSXBO_FDMA_0_0/system_MSXBO_FDMA_0_0.dcp' for cell 'u_system_wrapper/system_i/MSXBO_FDMA_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_rst_ps8_0_213M_1/system_rst_ps8_0_213M_1.dcp' for cell 'u_system_wrapper/system_i/rst_ps8_0_213M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_the_controller_axi_0_1/system_the_controller_axi_0_1.dcp' for cell 'u_system_wrapper/system_i/the_controller_axi_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0.dcp' for cell 'u_system_wrapper/system_i/zynq_ultra_ps_e_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0.dcp' for cell 'u_system_wrapper/system_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0.dcp' for cell 'u_system_wrapper/system_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2066.066 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2713 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 9 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0.xdc] for cell 'u_system_wrapper/system_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0.xdc] for cell 'u_system_wrapper/system_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_rst_ps8_0_213M_1/system_rst_ps8_0_213M_1_board.xdc] for cell 'u_system_wrapper/system_i/rst_ps8_0_213M/U0'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_rst_ps8_0_213M_1/system_rst_ps8_0_213M_1_board.xdc] for cell 'u_system_wrapper/system_i/rst_ps8_0_213M/U0'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_rst_ps8_0_213M_1/system_rst_ps8_0_213M_1.xdc] for cell 'u_system_wrapper/system_i/rst_ps8_0_213M/U0'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_rst_ps8_0_213M_1/system_rst_ps8_0_213M_1.xdc] for cell 'u_system_wrapper/system_i/rst_ps8_0_213M/U0'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/fifo_dram/fifo_dram.xdc] for cell 'u_dw_block/u_syn_data_fifo/u_fifo_dram/U0'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/fifo_dram/fifo_dram.xdc] for cell 'u_dw_block/u_syn_data_fifo/u_fifo_dram/U0'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'u_cw/inst'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'u_cw/inst'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'u_cw/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'u_cw/inst'
+Parsing XDC File [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/constrs_1/new/cons.xdc]
+Finished Parsing XDC File [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/constrs_1/new/cons.xdc]
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_clocks.xdc] for cell 'u_system_wrapper/system_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_clocks.xdc] for cell 'u_system_wrapper/system_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst'
+INFO: [Project 1-1714] 3 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM18.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_result_block/u_r/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 3253.953 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 302 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 256 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 1 instance 
+  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance 
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 42 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 2 instances
+
+open_run: Time (s): cpu = 00:02:00 ; elapsed = 00:01:38 . Memory (MB): peak = 3253.953 ; gain = 1996.277
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+close_design
+close_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 4395.051 ; gain = 0.000
+open_run impl_1_copy_1
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 4395.051 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3482 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 6 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 4395.051 ; gain = 0.000
+Restored from archive | CPU: 11.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 4395.051 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 4395.051 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 848 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 540 instances
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 256 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 1 instance 
+  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance 
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 44 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 6 instances
+
+open_run: Time (s): cpu = 00:00:56 ; elapsed = 00:00:48 . Memory (MB): peak = 4395.051 ; gain = 0.000
+open_report: Time (s): cpu = 00:00:37 ; elapsed = 00:00:18 . Memory (MB): peak = 4465.891 ; gain = 70.840
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  2 13:45:22 2022...

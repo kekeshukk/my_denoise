@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1_copy_1" LaunchPart="xczu3eg-sbva484-2-i" LaunchTime="1662531562">
+  <File Type="ROUTE-PWR" Name="ccnn_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ccnn_top.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="ccnn_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ccnn_top_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="ccnn_top.msk"/>
+  <File Type="ROUTE-CLK" Name="ccnn_top_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="ccnn_top.vdi"/>
+  <File Type="BG-BIT" Name="ccnn_top.bit"/>
+  <File Type="BG-DRC" Name="ccnn_top.drc"/>
+  <File Type="BG-BGN" Name="ccnn_top.bgn"/>
+  <File Type="BG-BIN" Name="ccnn_top.bin"/>
+  <File Type="BITSTR-RBT" Name="ccnn_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="ccnn_top.nky"/>
+  <File Type="BITSTR-BMM" Name="ccnn_top_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ccnn_top.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ccnn_top_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="ccnn_top.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ccnn_top_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ccnn_top.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="ccnn_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ccnn_top.hwdef"/>
+  <File Type="PLACE-IO" Name="ccnn_top_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ccnn_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ccnn_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ccnn_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ccnn_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="ccnn_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ccnn_top_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ccnn_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ccnn_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ccnn_top_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="ccnn_top_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ccnn_top_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ccnn_top_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ccnn_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ccnn_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ccnn_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ccnn_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ccnn_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ccnn_top_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="ccnn_top_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="ccnn_top_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="ccnn_top_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ccnn_top_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="ccnn_top_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ccnn_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ccnn_top_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-DRC-RPX" Name="ccnn_top_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ccnn_top_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="ccnn_top.pdi"/>
+  <File Type="RCFI_FILE" Name="ccnn_top.rcfi"/>
+  <File Type="CFI_FILE" Name="ccnn_top.cfi"/>
+  <File Type="RNPI_FILE" Name="ccnn_top.rnpi"/>
+  <File Type="NPI_FILE" Name="ccnn_top.npi"/>
+  <File Type="RBD_FILE" Name="ccnn_top.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/system/system.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lib_dnotop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/acc_post.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/accumulator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lib_conv.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv_rp.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ddr_read_write.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lib_dw_block.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dw_block.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/main_con.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mul_array.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pre_cal.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pre_cal_d.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pre_cal_w.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lib_rb.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/result_block.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/syn_data_fifo.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/system/hdl/system_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/weight.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ccnn_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/denoise_ram/input_l8_p6.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/denoise_ram/single_conv_wb_wp6_bp12.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ccnn_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/cons.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/cons.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design">
+      <Option Id="MoreOptsStr"><![CDATA[-retarget]]></Option>
+    </Step>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="weight_inc_0_conv"/>
+  <BlockFileSet Type="BlockSrcs" Name="system_zynq_ultra_ps_e_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="result"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_dram"/>
+  <BlockFileSet Type="BlockSrcs" Name="system_MSXBO_FDMA_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="system_rst_ps8_0_213M_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="system_the_controller_axi_0_1"/>
+</GenRun>

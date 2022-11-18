@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Memory>
+    <Block Addr="0x09000000" Context="JTAG-jsn-JTAG-HS1-210249855568-5ba00477-0A0" Size="-1">
+        <Rendering ID="org.eclipse.debug.ui.rendering.raw_memory" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.1"/>
+        <Rendering ID="org.eclipse.cdt.debug.ui.memory.floatingpoint.FPRendering" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.2"/>
+        <Rendering ID="org.eclipse.cdt.debug.ui.memory.traditional.TraditionalRendering" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.2"/>
+    </Block>
+    <Block Addr="0x0a000000" Context="JTAG-jsn-JTAG-HS1-210249855568-5ba00477-0A0" Size="-1">
+        <Rendering ID="org.eclipse.debug.ui.rendering.raw_memory" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.1"/>
+        <Rendering ID="org.eclipse.cdt.debug.ui.memory.floatingpoint.FPRendering" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.2"/>
+        <Rendering ID="org.eclipse.cdt.debug.ui.memory.traditional.TraditionalRendering" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.2"/>
+    </Block>
+</Memory>

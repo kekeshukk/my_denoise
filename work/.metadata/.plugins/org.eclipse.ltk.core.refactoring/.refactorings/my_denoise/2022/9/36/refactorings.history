@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;my_denoise/src/my_lib.h&apos; to &apos;the_lib.h&apos;" description="Rename resource &apos;my_lib.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/my_lib.h" name="the_lib.h" stamp="1662032835707" updateReferences="true"/>
+</session>

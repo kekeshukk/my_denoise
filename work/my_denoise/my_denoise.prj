@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="my_denoise" location="C:/Users/wwwka/Desktop/my_cnn/denoise/work/my_denoise" platform="C:/Users/wwwka/Desktop/my_cnn/denoise/work/ccnn_top/export/ccnn_top/ccnn_top.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="my_denoise_system" sysConfig="ccnn_top" runtime="cpp" cpu="standalone_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="19911f773fc29b4ebfc12b4913d404a4">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.579476626">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.234098546" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

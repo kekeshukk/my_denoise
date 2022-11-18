@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Aug 10 21:29:55 2022
+# Process ID: 49916
+# Current directory: C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/weight_inc_0_conv_synth_1
+# Command line: vivado.exe -log weight_inc_0_conv.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source weight_inc_0_conv.tcl
+# Log file: C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/weight_inc_0_conv_synth_1/weight_inc_0_conv.vds
+# Journal file: C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/weight_inc_0_conv_synth_1\vivado.jou
+#-----------------------------------------------------------
+source weight_inc_0_conv.tcl -notrace

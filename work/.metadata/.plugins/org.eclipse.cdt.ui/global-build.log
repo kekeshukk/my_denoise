@@ -1,0 +1,30 @@
+Nothing to build in platform 'ccnn_top'
+
+10:02:40 **** Incremental Build of configuration Debug for project my_denoise ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/wwwka/Desktop/my_cnn/denoise/work/ccnn_top/export/ccnn_top/sw/ccnn_top/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/my_intr.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/my_intr.o" -IC:/Users/wwwka/Desktop/my_cnn/denoise/work/ccnn_top/export/ccnn_top/sw/ccnn_top/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/my_intr.d" -MT"src/my_intr.o" -o "src/my_intr.o" "../src/my_intr.c"
+'Finished building: ../src/my_intr.c'
+' '
+'Building file: ../src/my_sd.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/my_sd.o" -IC:/Users/wwwka/Desktop/my_cnn/denoise/work/ccnn_top/export/ccnn_top/sw/ccnn_top/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/my_sd.d" -MT"src/my_sd.o" -o "src/my_sd.o" "../src/my_sd.c"
+'Finished building: ../src/my_sd.c'
+' '
+'Building target: my_denoise.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/wwwka/Desktop/my_cnn/denoise/work/ccnn_top/export/ccnn_top/sw/ccnn_top/standalone_psu_cortexa53_0/bsplib/lib -o "my_denoise.elf"  ./src/main.o ./src/my_intr.o ./src/my_sd.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: my_denoise.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size my_denoise.elf  |tee "my_denoise.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 180880	   7772	  23960	 212612	  33e84	my_denoise.elf
+'Finished building: my_denoise.elf.size'
+' '

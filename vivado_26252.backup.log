@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep  1 08:33:39 2022
+# Process ID: 26252
+# Current directory: C:/Users/wwwka/Desktop/my_cnn/denoise
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28224 C:\Users\wwwka\Desktop\my_cnn\denoise\denoise.xpr
+# Log file: C:/Users/wwwka/Desktop/my_cnn/denoise/vivado.log
+# Journal file: C:/Users/wwwka/Desktop/my_cnn/denoise\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/wwwka/Desktop/my_cnn/denoise/iprepo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:16 . Memory (MB): peak = 1257.363 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_runs impl_1_copy_1 -to_step write_bitstream -jobs 6
+[Thu Sep  1 08:34:30 2022] Launched impl_1_copy_1...
+Run output will be captured here: C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/impl_1_copy_1/runme.log

@@ -1,0 +1,191 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 6400
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Nov 13 13:43:04 CST 2022
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	wwwka
+User home directory: C:/Users/wwwka
+User working directory: G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2021.1
+RDI_DATADIR: C:/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/wwwka/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/wwwka/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/wwwka/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise/vivado.log
+Vivado journal file: 	G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise/vivado.jou
+Engine tmp dir: 	G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise/.Xil/Vivado-6400-DESKTOP-5JBVKGD
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2021.1
+XILINX_SDK: C:/Xilinx/Vitis/2021.1
+XILINX_VITIS: C:/Xilinx/Vitis/2021.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,268 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 84 MB (+85307kb) [00:00:11]
+// [Engine Memory]: 1,268 MB (+1177676kb) [00:00:11]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: G:\备份\2022年11月13日小论文写完了进行一次备份\桌面\my_cnn\denoise\denoise.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise/denoise.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 60 MB. Current time: 11/13/22, 1:43:05 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise/denoise.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/wwwka/Desktop/my_cnn/denoise' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/the_ip/the_controller_axi_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise/iprepo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 90 MB (+2095kb) [00:00:23]
+// [GUI Memory]: 113 MB (+19463kb) [00:00:24]
+// [GUI Memory]: 122 MB (+2981kb) [00:00:26]
+// WARNING: HEventQueue.dispatchEvent() is taking  6898 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1817 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:17 . Memory (MB): peak = 1257.648 ; gain = 0.000 
+// Project name: denoise; location: G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise; part: xczu3eg-sbva484-2-i
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 131 MB (+3838kb) [00:00:40]
+// [GUI Memory]: 142 MB (+4398kb) [00:01:26]
+// [GUI Memory]: 155 MB (+6218kb) [00:02:41]
+// Elapsed time: 189 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // o
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // an
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cs):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'top_tb' INFO: [Vivado 12-12490] The selected simulation model for 'system_auto_ds_0' IP changed to 'rtl' from '', the simulation run directory will be deleted. INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)... 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise/denoise.sim/sim_1/behav/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ccnn_top (ccnn_top.v)]", 2); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ccnn_top (ccnn_top.v)]", 2); // D
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:47:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:47:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:48:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:49:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:49:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:50:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:51:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:51:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:53:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:53:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:54:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:54:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:55:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 90 MB. Current time: 11/13/22, 1:56:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:56:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:57:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:58:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:58:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 1:59:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 2:00:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 2:00:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 141 MB. Current time: 11/13/22, 2:01:02 PM CST
+// Elapsed time: 913 seconds
+selectButton("HStatusBar_ProgressStatusItem_Cancel", "Cancel"); // NullButton
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 90 MB. Current time: 11/13/22, 2:02:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 91 MB. Current time: 11/13/22, 2:02:32 PM CST
+// Elapsed time: 56 seconds
+closeMainWindow("denoise - [G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise/denoise.xpr] - Vivado 2021.1"); // cs
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'

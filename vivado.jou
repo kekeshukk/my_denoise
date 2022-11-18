@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Nov 13 13:42:37 2022
+# Process ID: 6400
+# Current directory: G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14308 G:\备份\2022年11月13日小论文写完了进行一次备份\桌面\my_cnn\denoise\denoise.xpr
+# Log file: G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise/vivado.log
+# Journal file: G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/备份/2022年11月13日小论文写完了进行一次备份/桌面/my_cnn/denoise/denoise.xpr
+update_compile_order -fileset sources_1
+launch_simulation

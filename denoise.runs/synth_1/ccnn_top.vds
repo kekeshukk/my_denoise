@@ -1,0 +1,1529 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Sep  7 14:19:29 2022
+# Process ID: 52180
+# Current directory: C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1
+# Command line: vivado.exe -log ccnn_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ccnn_top.tcl
+# Log file: C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/ccnn_top.vds
+# Journal file: C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ccnn_top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/wwwka/Desktop/my_cnn/the_ip/the_controller_axi_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/wwwka/Desktop/my_cnn/denoise/iprepo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+Command: synth_design -top ccnn_top -part xczu3eg-sbva484-2-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-2-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 57372
+WARNING: [Synth 8-2292] literal value truncated to fit in 2 bits [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/conv_rp.v:134]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1588.992 ; gain = 127.512
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ccnn_top' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/ccnn_top.v:16]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'system_wrapper' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/hdl/system_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'system' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:695]
+INFO: [Synth 8-6157] synthesizing module 'system_MSXBO_FDMA_0_0' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/system_MSXBO_FDMA_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_MSXBO_FDMA_0_0' (2#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/system_MSXBO_FDMA_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_interconnect_0_1' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:1207]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_Y9JEWS' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:422]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_Y9JEWS' (3#1) [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:422]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_interconnect_0_1' (4#1) [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:1207]
+INFO: [Synth 8-6157] synthesizing module 'system_ps8_0_axi_periph_0' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:1607]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_RR89KG' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:12]
+INFO: [Synth 8-6157] synthesizing module 'system_auto_ds_0' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/system_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_auto_ds_0' (5#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/system_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_auto_pc_0' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/system_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_auto_pc_0' (6#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/system_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_RR89KG' (7#1) [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'system_ps8_0_axi_periph_0' (8#1) [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:1607]
+INFO: [Synth 8-6157] synthesizing module 'system_rst_ps8_0_213M_1' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/system_rst_ps8_0_213M_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_rst_ps8_0_213M_1' (9#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/system_rst_ps8_0_213M_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'system_rst_ps8_0_213M_1' is unconnected for instance 'rst_ps8_0_213M' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:1093]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'system_rst_ps8_0_213M_1' is unconnected for instance 'rst_ps8_0_213M' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:1093]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'system_rst_ps8_0_213M_1' is unconnected for instance 'rst_ps8_0_213M' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:1093]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'system_rst_ps8_0_213M_1' is unconnected for instance 'rst_ps8_0_213M' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:1093]
+WARNING: [Synth 8-7023] instance 'rst_ps8_0_213M' of module 'system_rst_ps8_0_213M_1' has 10 connections declared, but only 6 given [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:1093]
+INFO: [Synth 8-6157] synthesizing module 'system_the_controller_axi_0_1' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/system_the_controller_axi_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_the_controller_axi_0_1' (10#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/system_the_controller_axi_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_zynq_ultra_ps_e_0_0' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/system_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_zynq_ultra_ps_e_0_0' (11#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/system_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'maxigp0_awuser' of module 'system_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:1124]
+WARNING: [Synth 8-7071] port 'maxigp0_aruser' of module 'system_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:1124]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'system_zynq_ultra_ps_e_0_0' has 82 connections declared, but only 80 given [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:1124]
+INFO: [Synth 8-6155] done synthesizing module 'system' (12#1) [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/synth/system.v:695]
+INFO: [Synth 8-6155] done synthesizing module 'system_wrapper' (13#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/hdl/system_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'dw_block' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/dw_block.v:12]
+	Parameter WEI_WIDTH bound to: 1248 - type: integer 
+	Parameter WADDR_WIDTH bound to: 4 - type: integer 
+	Parameter DATA_WIDTH bound to: 512 - type: integer 
+	Parameter DMA_WIDTH bound to: 128 - type: integer 
+	Parameter DMA_SIZE_WIDTH bound to: 32 - type: integer 
+	Parameter DDR_BASE_R bound to: 150994944 - type: integer 
+	Parameter DDR_BASE_W bound to: 167772160 - type: integer 
+	Parameter DDR_STEP bound to: 64 - type: integer 
+	Parameter DMA_ADDR_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'weight' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/weight.v:6]
+	Parameter WEI_WIDTH bound to: 1248 - type: integer 
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'weight_inc_0_conv' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/weight_inc_0_conv_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'weight_inc_0_conv' (14#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/weight_inc_0_conv_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'weight' (15#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/weight.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ddr_read_write' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/ddr_read_write.v:14]
+	Parameter DDR_BASE_R bound to: 150994944 - type: integer 
+	Parameter DDR_BASE_W bound to: 167772160 - type: integer 
+	Parameter DDR_STEP bound to: 64 - type: integer 
+	Parameter DATA_WID bound to: 128 - type: integer 
+	Parameter ADDR_WID bound to: 32 - type: integer 
+	Parameter SIZE_WID bound to: 32 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/ddr_read_write.v:95]
+INFO: [Synth 8-6155] done synthesizing module 'ddr_read_write' (16#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/ddr_read_write.v:14]
+INFO: [Synth 8-6157] synthesizing module 'syn_data_fifo' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/syn_data_fifo.v:13]
+	Parameter IN_WID bound to: 128 - type: integer 
+	Parameter OUT_WID bound to: 512 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fifo_dram' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/fifo_dram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_dram' (17#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/fifo_dram_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_fifo_dram'. This will prevent further optimization [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/syn_data_fifo.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'syn_data_fifo' (18#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/syn_data_fifo.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'dw_block' (19#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/dw_block.v:12]
+INFO: [Synth 8-6157] synthesizing module 'main_con' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/main_con.v:3]
+	Parameter MAX_0 bound to: 16 - type: integer 
+	Parameter MAX_1 bound to: 4 - type: integer 
+	Parameter MAX_2 bound to: 64 - type: integer 
+	Parameter MAX_3 bound to: 4096 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/main_con.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'main_con' (20#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/main_con.v:3]
+WARNING: [Synth 8-7071] port 'out_c_end' of module 'main_con' is unconnected for instance 'u_main_con' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/ccnn_top.v:178]
+WARNING: [Synth 8-7023] instance 'u_main_con' of module 'main_con' has 12 connections declared, but only 11 given [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/ccnn_top.v:178]
+INFO: [Synth 8-6157] synthesizing module 'conv' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/conv.v:14]
+	Parameter IN_WID bound to: 8 - type: integer 
+	Parameter PRE_WID bound to: 10 - type: integer 
+	Parameter MUL_WID bound to: 20 - type: integer 
+	Parameter POST_WID bound to: 24 - type: integer 
+	Parameter DIN_NUM_P bound to: 16 - type: integer 
+	Parameter DIN_NUM_INC bound to: 4 - type: integer 
+	Parameter WIN_NUM_P bound to: 9 - type: integer 
+	Parameter WIN_NUM_INC bound to: 4 - type: integer 
+	Parameter DOUT_NUM_P bound to: 4 - type: integer 
+	Parameter DOUT_NUM_OUTC bound to: 4 - type: integer 
+	Parameter WIN_NUM_OUTC bound to: 4 - type: integer 
+	Parameter WIN_NUM_BIAS bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'pre_cal' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/pre_cal.v:13]
+	Parameter IN_WID bound to: 8 - type: integer 
+	Parameter OUT_WID bound to: 10 - type: integer 
+	Parameter DIN_NUM_P bound to: 16 - type: integer 
+	Parameter DIN_NUM_INC bound to: 4 - type: integer 
+	Parameter WIN_NUM_P bound to: 9 - type: integer 
+	Parameter WIN_NUM_INC bound to: 4 - type: integer 
+	Parameter WIN_NUM_OUTC bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'pre_cal_d' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/pre_cal_d.v:13]
+	Parameter IN_WID bound to: 8 - type: integer 
+	Parameter OUT_WID bound to: 10 - type: integer 
+	Parameter DIN_NUM_P bound to: 16 - type: integer 
+	Parameter DIN_NUM_INC bound to: 4 - type: integer 
+	Parameter WIN_NUM_P bound to: 9 - type: integer 
+	Parameter WIN_NUM_INC bound to: 4 - type: integer 
+	Parameter WIN_NUM_OUTC bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'pre_cal_d' (21#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/pre_cal_d.v:13]
+INFO: [Synth 8-6157] synthesizing module 'pre_cal_w' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/pre_cal_w.v:13]
+	Parameter IN_WID bound to: 8 - type: integer 
+	Parameter OUT_WID bound to: 10 - type: integer 
+	Parameter DIN_NUM_P bound to: 16 - type: integer 
+	Parameter DIN_NUM_INC bound to: 4 - type: integer 
+	Parameter WIN_NUM_P bound to: 9 - type: integer 
+	Parameter WIN_NUM_INC bound to: 4 - type: integer 
+	Parameter WIN_NUM_OUTC bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'pre_cal_w' (22#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/pre_cal_w.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'pre_cal' (23#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/pre_cal.v:13]
+INFO: [Synth 8-6157] synthesizing module 'mul_array' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:13]
+	Parameter IN_WID bound to: 10 - type: integer 
+	Parameter OUT_WID bound to: 20 - type: integer 
+	Parameter DIN_NUM_P bound to: 16 - type: integer 
+	Parameter DIN_NUM_INC bound to: 4 - type: integer 
+	Parameter WIN_NUM_P bound to: 9 - type: integer 
+	Parameter WIN_NUM_INC bound to: 4 - type: integer 
+	Parameter WIN_NUM_OUTC bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mul_array' (24#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:13]
+INFO: [Synth 8-6157] synthesizing module 'acc_post' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/acc_post.v:12]
+	Parameter IN_WID bound to: 20 - type: integer 
+	Parameter OUT_WID bound to: 24 - type: integer 
+	Parameter DIN_NUM_P bound to: 16 - type: integer 
+	Parameter DOUT_NUM_P bound to: 4 - type: integer 
+	Parameter DIN_NUM_INC bound to: 4 - type: integer 
+	Parameter DOUT_NUM_OUTC bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'acc_post' (25#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/acc_post.v:12]
+INFO: [Synth 8-6157] synthesizing module 'accumulator' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/accumulator.v:14]
+	Parameter IN_WID bound to: 24 - type: integer 
+	Parameter BIAS_WID bound to: 24 - type: integer 
+	Parameter OUT_WID bound to: 8 - type: integer 
+	Parameter DIN_NUM_P bound to: 4 - type: integer 
+	Parameter DOUT_NUM_P bound to: 4 - type: integer 
+	Parameter DIN_NUM_OUTC bound to: 4 - type: integer 
+	Parameter DOUT_NUM_OUTC bound to: 64 - type: integer 
+	Parameter WIN_NUM_BIAS bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'accumulator' (26#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/accumulator.v:14]
+INFO: [Synth 8-6157] synthesizing module 'conv_rp' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/conv_rp.v:13]
+	Parameter IN_WID bound to: 8 - type: integer 
+	Parameter DIN_NUM_P bound to: 4 - type: integer 
+	Parameter DOUT_NUM_P bound to: 4 - type: integer 
+	Parameter DIN_NUM_OUTC bound to: 4 - type: integer 
+	Parameter DOUT_NUM_OUTC bound to: 4 - type: integer 
+	Parameter MODE_WID bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'conv_rp' (27#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/conv_rp.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'conv' (28#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/conv.v:14]
+INFO: [Synth 8-6157] synthesizing module 'result_block' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/result_block.v:14]
+	Parameter IN_WID bound to: 8 - type: integer 
+	Parameter DIN_NUM_P bound to: 4 - type: integer 
+	Parameter ADDR_WID bound to: 12 - type: integer 
+	Parameter IN_NUM_OUTC bound to: 4 - type: integer 
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/result_block.v:50]
+INFO: [Synth 8-6157] synthesizing module 'result' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/result_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'result' (29#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/.Xil/Vivado-52180-DESKTOP-5JBVKGD/realtime/result_stub.v:6]
+WARNING: [Synth 8-7071] port 'doutb' of module 'result' is unconnected for instance 'u_r' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/result_block.v:50]
+WARNING: [Synth 8-7023] instance 'u_r' of module 'result' has 12 connections declared, but only 11 given [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/result_block.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'result_block' (30#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/result_block.v:14]
+WARNING: [Synth 8-689] width (1) of port connection 'dout' does not match port width (128) of module 'result_block' [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/ccnn_top.v:234]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_system_wrapper'. This will prevent further optimization [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/ccnn_top.v:117]
+INFO: [Synth 8-6155] done synthesizing module 'ccnn_top' (31#1) [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/ccnn_top.v:16]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1756.625 ; gain = 295.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1775.523 ; gain = 314.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1775.523 ; gain = 314.043
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.871 . Memory (MB): peak = 1775.523 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'u_system_wrapper/system_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0/system_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'u_system_wrapper/system_i/zynq_ultra_ps_e_0'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_MSXBO_FDMA_0_0/system_MSXBO_FDMA_0_0/system_MSXBO_FDMA_0_0_in_context.xdc] for cell 'u_system_wrapper/system_i/MSXBO_FDMA_0'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_MSXBO_FDMA_0_0/system_MSXBO_FDMA_0_0/system_MSXBO_FDMA_0_0_in_context.xdc] for cell 'u_system_wrapper/system_i/MSXBO_FDMA_0'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_rst_ps8_0_213M_1/system_rst_ps8_0_213M_1/system_rst_ps8_0_213M_1_in_context.xdc] for cell 'u_system_wrapper/system_i/rst_ps8_0_213M'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_rst_ps8_0_213M_1/system_rst_ps8_0_213M_1/system_rst_ps8_0_213M_1_in_context.xdc] for cell 'u_system_wrapper/system_i/rst_ps8_0_213M'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_the_controller_axi_0_1/system_the_controller_axi_0_1/system_the_controller_axi_0_1_in_context.xdc] for cell 'u_system_wrapper/system_i/the_controller_axi_0'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_the_controller_axi_0_1/system_the_controller_axi_0_1/system_the_controller_axi_0_1_in_context.xdc] for cell 'u_system_wrapper/system_i/the_controller_axi_0'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0/system_auto_ds_0_in_context.xdc] for cell 'u_system_wrapper/system_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0/system_auto_ds_0_in_context.xdc] for cell 'u_system_wrapper/system_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0/system_auto_pc_0_in_context.xdc] for cell 'u_system_wrapper/system_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0/system_auto_pc_0_in_context.xdc] for cell 'u_system_wrapper/system_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/weight_inc_0_conv/weight_inc_0_conv/weight_inc_0_conv_in_context.xdc] for cell 'u_dw_block/u_weight/wei'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/weight_inc_0_conv/weight_inc_0_conv/weight_inc_0_conv_in_context.xdc] for cell 'u_dw_block/u_weight/wei'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/result/result/result_in_context.xdc] for cell 'u_result_block/u_r'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/result/result/result_in_context.xdc] for cell 'u_result_block/u_r'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/fifo_dram/fifo_dram/fifo_dram_in_context.xdc] for cell 'u_dw_block/u_syn_data_fifo/u_fifo_dram'
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/fifo_dram/fifo_dram/fifo_dram_in_context.xdc] for cell 'u_dw_block/u_syn_data_fifo/u_fifo_dram'
+Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'u_cw'
+create_clock: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1936.695 ; gain = 27.461
+Finished Parsing XDC File [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'u_cw'
+Parsing XDC File [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/constrs_1/new/cons.xdc]
+Finished Parsing XDC File [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/constrs_1/new/cons.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/constrs_1/new/cons.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ccnn_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ccnn_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1936.695 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.249 . Memory (MB): peak = 1936.695 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'u_dw_block/u_syn_data_fifo/u_fifo_dram' at clock pin 'clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'u_dw_block/u_weight/wei' at clock pin 'clka' is different from the actual clock period '5.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'u_result_block/u_r' at clock pin 'clka' is different from the actual clock period '5.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:51 ; elapsed = 00:00:51 . Memory (MB): peak = 1954.766 ; gain = 493.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:51 ; elapsed = 00:00:51 . Memory (MB): peak = 1954.766 ; gain = 493.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_n. (constraint file  c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_n. (constraint file  c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for clk_p. (constraint file  c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_p. (constraint file  c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 6).
+Applied set_property KEEP_HIERARCHY = SOFT for u_system_wrapper/system_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_system_wrapper/system_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_system_wrapper/system_i/MSXBO_FDMA_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_system_wrapper/system_i/axi_interconnect_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_system_wrapper/system_i/rst_ps8_0_213M. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_system_wrapper/system_i/the_controller_axi_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_system_wrapper/system_i/ps8_0_axi_periph/s00_couplers/auto_ds. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_system_wrapper/system_i/ps8_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_system_wrapper/system_i/ps8_0_axi_periph. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_dw_block/u_weight/wei. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_result_block/u_r. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_dw_block/u_syn_data_fifo/u_fifo_dram. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_cw. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:51 ; elapsed = 00:00:51 . Memory (MB): peak = 1954.766 ; gain = 493.285
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'rcur_s_reg' in module 'ddr_read_write'
+INFO: [Synth 8-802] inferred FSM for state register 'cur_s_reg' in module 'main_con'
+INFO: [Synth 8-6159] Found Keep on FSM register 'rcur_s_reg' in module 'ddr_read_write', re-encoding will not be performed
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                  IDLE_R |                               00 |                               00
+                READ_PRP |                               01 |                               01
+                    READ |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                               00 |                               00
+                 iSTATE0 |                               01 |                               01
+                  iSTATE |                               10 |                               10
+                 iSTATE1 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_s_reg' using encoding 'sequential' in module 'main_con'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:02 ; elapsed = 00:01:02 . Memory (MB): peak = 1954.766 ; gain = 493.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   5 Input   24 Bit       Adders := 8     
+	   4 Input   24 Bit       Adders := 64    
+	   6 Input   24 Bit       Adders := 24    
+	   2 Input   24 Bit       Adders := 256   
+	   3 Input   24 Bit       Adders := 256   
+	   2 Input   20 Bit       Adders := 5     
+	   2 Input   12 Bit       Adders := 1     
+	   3 Input   10 Bit       Adders := 116   
+	   4 Input   10 Bit       Adders := 140   
+	   2 Input   10 Bit       Adders := 16    
+	   6 Input   10 Bit       Adders := 80    
+	   5 Input   10 Bit       Adders := 16    
+	   4 Input    8 Bit       Adders := 4     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	              512 Bit    Registers := 1     
+	              128 Bit    Registers := 4     
+	               96 Bit    Registers := 6     
+	               72 Bit    Registers := 16    
+	               32 Bit    Registers := 1     
+	               24 Bit    Registers := 392   
+	               20 Bit    Registers := 267   
+	               15 Bit    Registers := 1     
+	               14 Bit    Registers := 2     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 624   
+	                8 Bit    Registers := 48    
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 512   
+	  16 Input   24 Bit        Muxes := 256   
+	   2 Input   20 Bit        Muxes := 13    
+	   2 Input    8 Bit        Muxes := 64    
+	   4 Input    8 Bit        Muxes := 16    
+	   2 Input    4 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 1     
+	  10 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 28    
+	  16 Input    1 Bit        Muxes := 16    
+	   4 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+DSP Report: Generating DSP p_0_out, operation Mode is: A*B.
+DSP Report: operator p_0_out is absorbed into DSP p_0_out.
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[0][0]' (FDC) to 'u_pre_cal_w09/din_1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[0][1]' (FDC) to 'u_pre_cal_w09/din_1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[0][2]' (FDC) to 'u_pre_cal_w09/din_1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[0][3]' (FDC) to 'u_pre_cal_w09/din_1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[0][4]' (FDC) to 'u_pre_cal_w09/din_1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[0][5]' (FDC) to 'u_pre_cal_w09/din_1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[0][6]' (FDC) to 'u_pre_cal_w09/din_1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[0][7]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[0][8]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[0][8]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[0][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[0][9]' (FDC) to 'u_pre_cal_w09/din_1_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[1][8]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[1][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[2][8]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[2][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[3][0]' (FDC) to 'u_pre_cal_w09/din_1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[3][1]' (FDC) to 'u_pre_cal_w09/din_1_reg[17]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[3][2]' (FDC) to 'u_pre_cal_w09/din_1_reg[18]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[3][3]' (FDC) to 'u_pre_cal_w09/din_1_reg[19]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[3][4]' (FDC) to 'u_pre_cal_w09/din_1_reg[20]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[3][5]' (FDC) to 'u_pre_cal_w09/din_1_reg[21]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[3][6]' (FDC) to 'u_pre_cal_w09/din_1_reg[22]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[3][7]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[3][8]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[3][8]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[3][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[3][9]' (FDC) to 'u_pre_cal_w09/din_1_reg[23]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[4][8]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[4][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[7][8]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[7][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[8][8]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[8][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[11][8]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[11][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[48]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[12][0]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[49]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[12][1]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[50]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[12][2]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[51]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[12][3]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[52]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[12][4]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[53]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[12][5]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[54]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[12][6]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[55]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[12][7]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[12][7]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[12][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[12][8]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[12][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[13][8]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[13][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[14][8]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[14][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[64]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[15][0]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[65]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[15][1]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[66]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[15][2]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[67]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[15][3]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[68]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[15][4]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[69]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[15][5]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[70]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[15][6]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/din_1_reg[71]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[15][7]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[15][7]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[15][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w09/dout_sli_0_reg[15][8]' (FDC) to 'u_pre_cal_w09/dout_sli_0_reg[15][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[0][0]' (FDC) to 'u_pre_cal_w_10/din_1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[0][1]' (FDC) to 'u_pre_cal_w_10/din_1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[0][2]' (FDC) to 'u_pre_cal_w_10/din_1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[0][3]' (FDC) to 'u_pre_cal_w_10/din_1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[0][4]' (FDC) to 'u_pre_cal_w_10/din_1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[0][5]' (FDC) to 'u_pre_cal_w_10/din_1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[0][6]' (FDC) to 'u_pre_cal_w_10/din_1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[0][7]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[0][8]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[0][8]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[0][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[0][9]' (FDC) to 'u_pre_cal_w_10/din_1_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[1][8]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[1][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[2][8]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[2][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[3][0]' (FDC) to 'u_pre_cal_w_10/din_1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[3][1]' (FDC) to 'u_pre_cal_w_10/din_1_reg[17]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[3][2]' (FDC) to 'u_pre_cal_w_10/din_1_reg[18]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[3][3]' (FDC) to 'u_pre_cal_w_10/din_1_reg[19]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[3][4]' (FDC) to 'u_pre_cal_w_10/din_1_reg[20]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[3][5]' (FDC) to 'u_pre_cal_w_10/din_1_reg[21]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[3][6]' (FDC) to 'u_pre_cal_w_10/din_1_reg[22]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[3][7]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[3][8]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[3][8]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[3][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[3][9]' (FDC) to 'u_pre_cal_w_10/din_1_reg[23]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[4][8]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[4][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[7][8]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[7][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[8][8]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[8][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[11][8]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[11][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[48]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[12][0]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[49]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[12][1]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[50]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[12][2]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[51]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[12][3]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[52]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[12][4]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[53]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[12][5]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[54]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[12][6]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[55]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[12][7]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[12][7]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[12][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[12][8]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[12][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[13][8]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[13][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[14][8]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[14][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[64]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[15][0]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[65]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[15][1]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[66]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[15][2]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[67]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[15][3]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[68]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[15][4]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[69]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[15][5]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[70]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[15][6]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/din_1_reg[71]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[15][7]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[15][7]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[15][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_10/dout_sli_0_reg[15][8]' (FDC) to 'u_pre_cal_w_10/dout_sli_0_reg[15][9]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_11/dout_sli_0_reg[0][0]' (FDC) to 'u_pre_cal_w_11/din_1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_11/dout_sli_0_reg[0][1]' (FDC) to 'u_pre_cal_w_11/din_1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_11/dout_sli_0_reg[0][2]' (FDC) to 'u_pre_cal_w_11/din_1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_pre_cal_w_11/dout_sli_0_reg[0][3]' (FDC) to 'u_pre_cal_w_11/din_1_reg[3]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:43 ; elapsed = 00:02:13 . Memory (MB): peak = 1954.766 ; gain = 493.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_array   | A*B         | 10     | 10     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:01 ; elapsed = 00:02:32 . Memory (MB): peak = 2468.473 ; gain = 1006.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:24 ; elapsed = 00:02:56 . Memory (MB): peak = 3237.109 ; gain = 1775.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.srcs/sources_1/new/mul_array.v:52]
+INFO: [Common 17-14] Message 'Synth 8-5844' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-5844' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:43 ; elapsed = 00:04:39 . Memory (MB): peak = 3237.109 ; gain = 1775.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:57 ; elapsed = 00:04:54 . Memory (MB): peak = 3237.109 ; gain = 1775.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:57 ; elapsed = 00:04:54 . Memory (MB): peak = 3237.109 ; gain = 1775.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:24 ; elapsed = 00:05:21 . Memory (MB): peak = 3237.109 ; gain = 1775.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:24 ; elapsed = 00:05:22 . Memory (MB): peak = 3237.109 ; gain = 1775.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:26 ; elapsed = 00:05:23 . Memory (MB): peak = 3237.109 ; gain = 1775.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:27 ; elapsed = 00:05:24 . Memory (MB): peak = 3237.109 ; gain = 1775.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name               | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|conv        | cur_s_array_reg[5][1]  | 6      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|conv        | cnt_0_array_reg[5][19] | 6      | 20    | NO           | NO                 | YES               | 20     | 0       | 
+|conv        | in_c_end_array_reg[5]  | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|conv        | valid_p_array_reg[5]   | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|conv        | bias_reg[5][86]        | 6      | 60    | NO           | NO                 | YES               | 60     | 0       | 
++------------+------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------+----------+
+|      |BlackBox name                 |Instances |
++------+------------------------------+----------+
+|1     |system_auto_ds_0              |         1|
+|2     |system_auto_pc_0              |         1|
+|3     |system_MSXBO_FDMA_0_0         |         1|
+|4     |system_rst_ps8_0_213M_1       |         1|
+|5     |system_the_controller_axi_0_1 |         1|
+|6     |system_zynq_ultra_ps_e_0_0    |         1|
+|7     |fifo_dram                     |         1|
+|8     |weight_inc_0_conv             |         1|
+|9     |result                        |         1|
+|10    |clk_wiz_0                     |         1|
++------+------------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------+------+
+|      |Cell                        |Count |
++------+----------------------------+------+
+|1     |clk_wiz                     |     1|
+|2     |fifo_dram                   |     1|
+|3     |result                      |     1|
+|4     |system_MSXBO_FDMA_0         |     1|
+|5     |system_auto_ds              |     1|
+|6     |system_auto_pc              |     1|
+|7     |system_rst_ps8_0_213M       |     1|
+|8     |system_the_controller_axi_0 |     1|
+|9     |system_zynq_ultra_ps_e_0    |     1|
+|10    |weight_inc_0_conv           |     1|
+|11    |CARRY8                      |  2244|
+|12    |DSP_ALU                     |   256|
+|13    |DSP_A_B_DATA                |   256|
+|14    |DSP_C_DATA                  |   256|
+|15    |DSP_MULTIPLIER              |   256|
+|16    |DSP_M_DATA                  |   256|
+|17    |DSP_OUTPUT                  |   256|
+|18    |DSP_PREADD                  |   256|
+|19    |DSP_PREADD_DATA             |   256|
+|20    |LUT1                        |    92|
+|21    |LUT2                        |  8414|
+|22    |LUT3                        | 13223|
+|23    |LUT4                        |  7427|
+|24    |LUT5                        |  1322|
+|25    |LUT6                        |  2416|
+|26    |MUXF7                       |   128|
+|27    |SRL16E                      |    84|
+|28    |FDCE                        | 13211|
+|29    |FDPE                        |     5|
+|30    |FDRE                        |   131|
+|31    |IBUF                        |     1|
++------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:27 ; elapsed = 00:05:24 . Memory (MB): peak = 3237.109 ; gain = 1775.629
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:43 ; elapsed = 00:05:15 . Memory (MB): peak = 3237.109 ; gain = 1596.387
+Synthesis Optimization Complete : Time (s): cpu = 00:04:27 ; elapsed = 00:05:34 . Memory (MB): peak = 3237.109 ; gain = 1775.629
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 3237.109 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2629 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 5 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 3237.109 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 257 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 256 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 1 instance 
+
+Synth Design complete, checksum: ba138e85
+INFO: [Common 17-83] Releasing license: Synthesis
+295 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:05:02 ; elapsed = 00:06:10 . Memory (MB): peak = 3237.109 ; gain = 1979.355
+INFO: [Common 17-1381] The checkpoint 'C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/synth_1/ccnn_top.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 3237.109 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file ccnn_top_utilization_synth.rpt -pb ccnn_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Sep  7 14:26:11 2022...

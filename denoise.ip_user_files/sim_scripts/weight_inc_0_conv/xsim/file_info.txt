@@ -1,0 +1,2 @@
+weight_inc_0_conv.v,verilog,xil_defaultlib,../../../../denoise.gen/sources_1/ip/weight_inc_0_conv/sim/weight_inc_0_conv.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

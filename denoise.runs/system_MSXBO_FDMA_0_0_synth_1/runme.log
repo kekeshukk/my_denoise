@@ -1,0 +1,227 @@
+
+*** Running vivado
+    with args -log system_MSXBO_FDMA_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_MSXBO_FDMA_0_0.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source system_MSXBO_FDMA_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/wwwka/Desktop/my_cnn/denoise/iprepo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+Command: synth_design -top system_MSXBO_FDMA_0_0 -part xczu3eg-sbva484-2-i -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-2-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 32312
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1570.582 ; gain = 128.145
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'system_MSXBO_FDMA_0_0' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_MSXBO_FDMA_0_0/synth/system_MSXBO_FDMA_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'MSXBO_FDMA' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ipshared/2c1a/hdl/MSXBO_FDMA_v1_0.v:4]
+INFO: [Synth 8-6157] synthesizing module 'MSXBO_FDMA_v1_0_M00_AXI' [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ipshared/2c1a/hdl/MSXBO_FDMA_v1_0_M00_AXI.v:17]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ipshared/2c1a/hdl/MSXBO_FDMA_v1_0_M00_AXI.v:88]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ipshared/2c1a/hdl/MSXBO_FDMA_v1_0_M00_AXI.v:88]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ipshared/2c1a/hdl/MSXBO_FDMA_v1_0_M00_AXI.v:88]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ipshared/2c1a/hdl/MSXBO_FDMA_v1_0_M00_AXI.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'MSXBO_FDMA_v1_0_M00_AXI' (1#1) [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ipshared/2c1a/hdl/MSXBO_FDMA_v1_0_M00_AXI.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'MSXBO_FDMA' (2#1) [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ipshared/2c1a/hdl/MSXBO_FDMA_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'system_MSXBO_FDMA_0_0' (3#1) [c:/Users/wwwka/Desktop/my_cnn/denoise/denoise.gen/sources_1/bd/system/ip/system_MSXBO_FDMA_0_0/synth/system_MSXBO_FDMA_0_0.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1621.570 ; gain = 179.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1639.477 ; gain = 197.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1639.477 ; gain = 197.039
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1639.477 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1741.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1759.730 ; gain = 17.902
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1759.730 ; gain = 317.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1759.730 ; gain = 317.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1759.730 ; gain = 317.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1759.730 ; gain = 317.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1759.730 ; gain = 317.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 2262.844 ; gain = 820.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 2263.141 ; gain = 820.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 2291.758 ; gain = 849.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2291.758 ; gain = 849.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2291.758 ; gain = 849.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2291.758 ; gain = 849.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2291.758 ; gain = 849.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2291.758 ; gain = 849.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2291.758 ; gain = 849.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY8 |    28|
+|2     |LUT1   |    65|
+|3     |LUT2   |     2|
+|4     |LUT3   |     5|
+|5     |LUT4   |    76|
+|6     |LUT5   |     8|
+|7     |LUT6   |    27|
+|8     |FDRE   |   145|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2291.758 ; gain = 849.320
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 2291.758 ; gain = 729.066
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2291.758 ; gain = 849.320
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2301.965 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2327.336 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 86cfacd8
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 2327.336 ; gain = 1069.895
+INFO: [Common 17-1381] The checkpoint 'C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/system_MSXBO_FDMA_0_0_synth_1/system_MSXBO_FDMA_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP system_MSXBO_FDMA_0_0, cache-ID = 41140825ad21369b
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.runs/system_MSXBO_FDMA_0_0_synth_1/system_MSXBO_FDMA_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_MSXBO_FDMA_0_0_utilization_synth.rpt -pb system_MSXBO_FDMA_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 10 18:31:21 2022...

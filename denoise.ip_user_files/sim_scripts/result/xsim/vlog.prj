@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../denoise.gen/sources_1/ip/result/sim/result.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

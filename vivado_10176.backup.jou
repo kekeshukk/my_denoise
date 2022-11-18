@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Aug 30 20:38:32 2022
+# Process ID: 10176
+# Current directory: C:/Users/wwwka/Desktop/my_cnn/denoise
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9320 C:\Users\wwwka\Desktop\my_cnn\denoise\denoise.xpr
+# Log file: C:/Users/wwwka/Desktop/my_cnn/denoise/vivado.log
+# Journal file: C:/Users/wwwka/Desktop/my_cnn/denoise\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/wwwka/Desktop/my_cnn/denoise/denoise.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/wwwka/Desktop/my_cnn/denoise/top_tb_behav.wcfg
+source top_tb.tcl
+update_compile_order -fileset sources_1
+run all
+restart
+run all
+restart
+run all
+save_wave_config {C:/Users/wwwka/Desktop/my_cnn/denoise/top_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/wwwka/Desktop/my_cnn/denoise/top_tb_behav.wcfg
+source top_tb.tcl
+run all
+save_wave_config {C:/Users/wwwka/Desktop/my_cnn/denoise/top_tb_behav.wcfg}
+current_wave_config {top_tb_behav.wcfg}
+add_wave {{/top_tb/u_ccnn_top/u_main_con}} 
+current_wave_config {top_tb_behav.wcfg}
+add_wave {{/top_tb/u_ccnn_top/u_main_con}} 
+run all
+run all
+save_wave_config {C:/Users/wwwka/Desktop/my_cnn/denoise/top_tb_behav.wcfg}
+save_wave_config {C:/Users/wwwka/Desktop/my_cnn/denoise/top_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/wwwka/Desktop/my_cnn/denoise/top_tb_behav.wcfg
+source top_tb.tcl
+launch_simulation
+open_wave_config C:/Users/wwwka/Desktop/my_cnn/denoise/top_tb_behav.wcfg
+source top_tb.tcl
+run all

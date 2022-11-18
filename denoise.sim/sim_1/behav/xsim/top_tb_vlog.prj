@@ -1,0 +1,40 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../denoise.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../denoise.gen/sources_1/bd/system/ipshared/bb17/hdl" --include "../../../../denoise.gen/sources_1/ip/clk_wiz_0" --include "C:/Xilinx/Vivado/2021.1/data/xilinx_vip/include" \
+"../../../../denoise.gen/sources_1/ip/result/sim/result.v" \
+"../../../../denoise.gen/sources_1/ip/fifo_dram/sim/fifo_dram.v" \
+"../../../../denoise.gen/sources_1/ip/weight_inc_0_conv/sim/weight_inc_0_conv.v" \
+"../../../../denoise.ip_user_files/bd/system/ip/system_zynq_ultra_ps_e_0_0/sim/system_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../../denoise.ip_user_files/bd/system/ipshared/2c1a/hdl/MSXBO_FDMA_v1_0_M00_AXI.v" \
+"../../../../denoise.ip_user_files/bd/system/ipshared/2c1a/hdl/MSXBO_FDMA_v1_0.v" \
+"../../../../denoise.ip_user_files/bd/system/ip/system_MSXBO_FDMA_0_0/sim/system_MSXBO_FDMA_0_0.v" \
+"../../../../denoise.ip_user_files/bd/system/ipshared/f5ba/hdl/the_controller_axi_v1_0_S0_AXI.v" \
+"../../../../denoise.ip_user_files/bd/system/ipshared/f5ba/hdl/the_controller_axi_v1_0.v" \
+"../../../../denoise.ip_user_files/bd/system/ip/system_the_controller_axi_0_1/sim/system_the_controller_axi_0_1.v" \
+"../../../../denoise.ip_user_files/bd/system/ip/system_auto_ds_0/sim/system_auto_ds_0.v" \
+"../../../../denoise.ip_user_files/bd/system/ip/system_auto_pc_0/sim/system_auto_pc_0.v" \
+"../../../../denoise.ip_user_files/bd/system/sim/system.v" \
+"../../../../denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../denoise.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../denoise.srcs/sources_1/new/acc_post.v" \
+"../../../../denoise.srcs/sources_1/new/accumulator.v" \
+"../../../../denoise.srcs/sources_1/new/ccnn_top.v" \
+"../../../../denoise.srcs/sources_1/new/conv.v" \
+"../../../../denoise.srcs/sources_1/new/conv_rp.v" \
+"../../../../denoise.srcs/sources_1/new/ddr_read_write.v" \
+"../../../../denoise.srcs/sources_1/new/dw_block.v" \
+"../../../../denoise.srcs/sources_1/new/main_con.v" \
+"../../../../denoise.srcs/sources_1/new/mul_array.v" \
+"../../../../denoise.srcs/sources_1/new/pre_cal.v" \
+"../../../../denoise.srcs/sources_1/new/pre_cal_d.v" \
+"../../../../denoise.srcs/sources_1/new/pre_cal_w.v" \
+"../../../../denoise.srcs/sources_1/new/result_block.v" \
+"../../../../denoise.srcs/sources_1/new/syn_data_fifo.v" \
+"../../../../denoise.gen/sources_1/bd/system/hdl/system_wrapper.v" \
+"../../../../denoise.srcs/sources_1/new/weight.v" \
+"../../../../denoise.srcs/sim_1/new/top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

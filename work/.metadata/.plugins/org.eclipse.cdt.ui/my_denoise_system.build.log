@@ -1,0 +1,10 @@
+17:20:54 **** Build of configuration Debug for project my_denoise_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 7416 C:/Users/wwwka/Desktop/my_cnn/denoise/work/ccnn_top/export/ccnn_top/ccnn_top.xpfm standalone_psu_cortexa53_0 C:/Users/wwwka/Desktop/my_cnn/denoise/work/my_denoise_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/wwwka/Desktop/my_cnn/denoise/work/ccnn_top/export/ccnn_top/ccnn_top.xpfm --sys_config ccnn_top --bif C:/Users/wwwka/Desktop/my_cnn/denoise/work/my_denoise_system/Debug/system.bif --bitstream C:/Users/wwwka/Desktop/my_cnn/denoise/work/my_denoise/_ide/bitstream/ccnn_top.bit --elf C:/Users/wwwka/Desktop/my_cnn/denoise/work/my_denoise/Debug/my_denoise.elf,psu_cortexa53_0
+creating BOOT.BIN using C:/Users/wwwka/Desktop/my_cnn/denoise/work/my_denoise/_ide/bitstream/ccnn_top.bit
+Running C:/Xilinx/Vitis/2021.1/bin/bootgen -arch zynqmp -image C:/Users/wwwka/Desktop/my_cnn/denoise/work/my_denoise_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+17:21:06 Build Finished (took 11s.984ms)
+

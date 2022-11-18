@@ -1,0 +1,49 @@
+Time resolution is 1 ps
+XilinxAXIVIP: Found at Path: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.S_AXI_ACP.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_ACP : Port is DISABLED.
+XilinxAXIVIP: Found at Path: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.S_AXI_ACE.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_ACE : Port is DISABLED.
+XilinxAXIVIP: Found at Path: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.S_AXI_HPC0_FPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP0 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.S_AXI_HPC1_FPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP1 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.S_AXI_HP0_FPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP2 : Port is ENABLED.
+XilinxAXIVIP: Found at Path: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.S_AXI_HP1_FPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP3 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.S_AXI_HP2_FPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP4 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.S_AXI_HP3_FPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP5 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.S_AXI_HPM0_LPD.slave
+[0] : *ZYNQ_MPSoC_BFM_INFO : S_AXI_GP6 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.M_AXI_HPM0_FPD.master
+[0] : *ZYNQ_MPSoC_BFM_INFO : M_AXI_GP0 : Port is ENABLED.
+XilinxAXIVIP: Found at Path: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.M_AXI_HPM1_FPD.master
+[0] : *ZYNQ_MPSoC_BFM_INFO : M_AXI_GP1 : Port is DISABLED.
+XilinxAXIVIP: Found at Path: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.M_AXI_HPM0_LPD.master
+[0] : *ZYNQ_MPSoC_BFM_INFO : M_AXI_GP2 : Port is DISABLED.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module top_tb.u_ccnn_top.u_dw_block.u_weight.wei.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module top_tb.u_ccnn_top.u_result_block.u_r.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: File C:\Users\wwwka\Desktop\my_cnn\denoise\denoise_ram\input_l8_p6 referenced on C:/Users/¿µÎÄÕý/Desktop/my_cnn/denoise/denoise.srcs/sim_1/new/top_tb.v at line 38 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: 10 ns top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.M_AXI_HPM0_FPD.master.IF : ARESET_N can't be X/Z after 1 cycle of clock. To downgrade, use <hierarchy_path to VIP>.IF.set_enable_xchecks_to_warn(), or filter using clr_enable_xchecks.
+WARNING: 10 ns top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.S_AXI_HP0_FPD.slave.IF : ARESET_N can't be X/Z after 1 cycle of clock. To downgrade, use <hierarchy_path to VIP>.IF.set_enable_xchecks_to_warn(), or filter using clr_enable_xchecks.
+
+Time: 530 ns Started: 530 ns Scope: /top_tb/u_ccnn_top/u_system_wrapper/system_i/zynq_ultra_ps_e_0/inst/S_AXI_HP0_FPD/slave/IF/PC File: C:/Xilinx/Vivado/2021.1/data/xilinx_vip/hdl/axi_vip_axi4pc.sv Line:2692
+Fatal: AXI4_ERRM_RREADY_X: When not in reset, a value of X on RREADY is not permitted. Spec: section A3.1.2.
+Time: 530 ns  Iteration: 5  Process: /top_tb/u_ccnn_top/u_system_wrapper/system_i/zynq_ultra_ps_e_0/inst/S_AXI_HP0_FPD/slave/IF/PC//top_tb/u_ccnn_top/u_system_wrapper/system_i/zynq_ultra_ps_e_0/inst/S_AXI_HP0_FPD/slave/IF/PC  Scope: top_tb.u_ccnn_top.u_system_wrapper.system_i.zynq_ultra_ps_e_0.inst.S_AXI_HP0_FPD.slave.IF.PC.arm_amba4_pc_msg_err  File: C:/Xilinx/Vivado/2021.1/data/xilinx_vip/hdl/axi_vip_axi4pc.sv Line: 727
+$finish called at time : 530 ns
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
+Executing Axi4 End Of Simulation checks
